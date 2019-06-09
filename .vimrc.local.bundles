@@ -1,0 +1,4 @@
+Plug 'tibabit/vim-templates'
+Plug 'Chiel92/vim-autoformat'
+Plug 'fisadev/vim-isort'
+Plug 'lfilho/cosco.vim'

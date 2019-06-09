@@ -1,0 +1,18 @@
+let mapleader='\'
+
+let g:snips_author = 'andee'
+let g:snips_email = 'andee@minubo.com'
+let g:snips_github = 'https://github.com/nextelBIS/minubo'
+let g:delimitMate_expand_cr = 1
+
+au BufWrite * :Autoformat
+
+map <Home> <ESC>^
+imap <Home> <ESC>I
+imap <ESC><CR> <ESC>o
+noremap <leader>/ :Commentary<cr>
+" Specify sorting for python imports
+noremap <leader>i :Isort<cr>
+
+set cursorline
+hi MatchParen cterm=none ctermbg=darkgrey ctermfg=white
